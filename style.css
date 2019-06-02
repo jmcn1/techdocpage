@@ -1,0 +1,38 @@
+#heading {
+    text-align: center;
+    margin-left: 25%;
+}
+
+#sections {
+    font-size: 150%;
+}
+#navbar {
+height: 100%; 
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.nav-link {
+    padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;  
+}
+.main-section {
+    margin-left: 25%;
+}
+
+@media screen {
+    .nav-link:hover {
+        color: blue;
+    }
+    }
+}
